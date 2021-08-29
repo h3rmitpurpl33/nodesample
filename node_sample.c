@@ -7,7 +7,7 @@ typedef struct node
     char name[100];
     int code;
     float grd;
-    node *next;
+    struct node *next;// πρεπει να το ορισεις ως ενθετο struct αλλιως θα εμφανιστει error
 }node;
 
 node *head;
