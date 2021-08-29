@@ -125,7 +125,7 @@ void add_queue(const node *p){
     node *new_node;
 
     new_node = (node*) malloc(sizeof(node));
-    if(new_node = NULL)
+    if(new_node == NULL)
     {
         printf("error : not available memory\n");
         exit(EXIT_FAILURE);
