@@ -1,2 +1,2 @@
 # nodesample
-sample of node
+sample of node to add the name, code and grade of students
